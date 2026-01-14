@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url("https://offloadmedia.feverup.com/secretnyc.co/wp-content/uploads/2024/01/05161233/subway-in-snow.jpg");
+  background-size: cover;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: grey;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+button {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+}
+
+#increment-btn {
+  background: darkred;
+}
+
+#save-btn {
+  background: darkgreen;
+}
+
+button:hover {
+  border: 1px solid blue;
+}

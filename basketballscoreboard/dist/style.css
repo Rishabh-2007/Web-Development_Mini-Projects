@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  text-align: center;
+  background: #182042;
+  color: white;
+  font-size: 50px;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+#num1-el, #num2-el {
+  font-size: 100px;
+  margin: 0px 0px 10px 0px;
+  background: black;
+  padding: 50px 130px;
+  text-align: center;
+  color: red;
+  font-family: 'Seven Segment', sans-serif;
+}
+
+button {                                       
+  background: none;
+  color: #ffffff;
+  width: 70px;
+  padding: 10px ;
+  font-size: 30px;
+  font-family: 'Seven Segment', sans-serif;
+  border: 1px solid;
+  border-radius: 7px;
+}

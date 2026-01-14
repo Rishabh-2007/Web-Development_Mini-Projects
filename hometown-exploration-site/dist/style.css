@@ -1,0 +1,93 @@
+#section1 {
+  background-image: url("https://www.suratmunicipal.gov.in/Images/Services/SuratFort/Slider/HomePage/Slider0-2.jpg");
+  background-size: cover;
+  padding-bottom: 350px;
+  padding-top: 50px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+#title {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: red;
+  margin-bottom:0px;
+}
+
+#about {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #475B9D;
+}
+
+#p1 {
+  width: 250px;
+  border-radius: 50%;
+  margin-bottom: 35px;
+}
+
+#p2 {
+  width: 200px;
+  border-radius: 50%;
+}
+
+#p3 {
+  width: 250px;
+  border-radius: 50%;
+  margin-bottom: 35px;
+}
+
+#section2 {
+  text-align: center;
+  margin-bottom: 50px;
+  background: linear-gradient(lightblue,lightgrey);
+}
+
+.column {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 60px;
+}
+
+.col {
+  width: 500px;
+}
+
+#about2 {
+  margin-top: 0px;
+  padding-top: 20px;
+  margin-bottom: 50px;
+  font-size: 28px;
+}
+
+#p4 {
+  width: 250px;
+  margin-right:50px;
+}
+
+#name {
+  text-align: center;
+  font-size: 25px;
+}
+
+#heading {
+  text-align: center;
+  font-size:30px;
+}
+
+#section3 {
+  max-width: 700px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  background: grey;
+  padding: 50px;
+  border-radius: 30px;
+  margin: 0 auto;
+  border-bottom: 8px solid black;
+  background: linear-gradient(lightgrey,lightpink);
+}

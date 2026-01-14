@@ -1,0 +1,94 @@
+body {
+  text-align: center;
+  font-family: "Happy Monkey", system-ui;
+  background: linear-gradient(skyblue, pink);
+  color: #ffffff;
+}
+
+h1, h2, h4, h3, p {
+  text-shadow: 0px 0px 1px black;
+}
+
+#image {
+  border-radius: 50%;
+  width: 150px;
+  border: 6px solid #EFB0C9;
+}
+
+#bday_age {
+  background: #EFB0C9;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+
+
+#bday_date {
+  margin: 0;
+  background: #EFB0C9;
+  padding: 5px 10px;;
+  border-radius: 5px;
+}
+
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.gift-section {
+  margin-top: 50px;
+}
+
+.gift-title {
+  margin-bottom: 10px;
+}
+
+.gift-hint {
+  margin-top: 0px;
+}
+
+.gift-img {
+ background-image:  url("https://tse2.mm.bing.net/th/id/OIP.aRMR0wjJZBUU2i__jJYYeQHaEK?rs=1&pid=ImgDetMain&o=7&rm=3");
+  background-size: cover;
+  height: 250px;
+  border: 6px solid #ffffff;
+  border-radius: 10px;
+  width: 400px;
+  margin: 0px auto
+}
+
+#gift-img-happy:hover {
+  background-image: url("https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWd2NnRiZ2Y4YjlpMDVuNTl1ZGtta2J0Y3l3cnV2cXR4dXRiZjVpbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/11sBLVxNs7v6WA/giphy.gif");
+}
+
+#gift-img-hot:hover {
+  background-image: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHUwZWVpaGRmZWpreWU1YzQwcnpkMDVnajZ1a2hoYWF1cG54NXowMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ckB5razpgN2rd4qTfe/giphy.gif");
+}
+
+#gift-img-genius:hover {
+  background-image: url("https://media1.tenor.com/images/1f943c7d49ca3aaf3b62fb0de4c7c4e3/tenor.gif?itemid=5322498");
+}
+
+#gift-img-badass:hover {
+  background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDkzczM4NGVvbnZ1MjZreGN1ZjRsOXl4eHhmaTJxaXNhODl2eDY1OCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/E2xIW6fZQVnJC/giphy.gif");
+}
+
+#gift-img-cheers {
+  height: 200px;
+}
+
+#gift-img-cheers:hover {
+  background-image: url("https://www.gifcen.com/wp-content/uploads/2022/12/cheers-gif-6.gif");
+}
+
+#footer {
+  width: 400px
+  font-style: italic;
+  margin: 40px auto 20px;
+}
+
+a {
+  color: white;
+}
